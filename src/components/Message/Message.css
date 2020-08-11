@@ -1,0 +1,41 @@
+.Message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.Message .message-right {
+  background-color: #b9321b;
+  margin-left: 6px;
+}
+
+.Message .message-left {
+  background-color: #e4e6eb;
+  margin-right: 6px;
+}
+
+.Message .messageBox {
+  display: flex;
+  align-items: center;
+  min-height: 2.5rem;
+  max-width: 12rem;
+  border-radius: 12px;
+  padding: 8px 10px;
+  word-break: break-word;
+}
+
+.Message p {
+  margin: 0;
+}
+
+.Message .user-sent {
+  font-size: 12px;
+}
+
+.Message .right {
+  margin-left: auto;
+}
+
+.Message .white {
+  color: #ffffff;
+}

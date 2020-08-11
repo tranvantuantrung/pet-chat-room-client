@@ -1,0 +1,20 @@
+.Activebar {
+  color: #ffffff;
+  margin-left: auto;
+  width: 18rem;
+}
+
+.Activebar .header {
+  font-size: 20px !important;
+  color: #ffffff;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #ffffff;
+  text-align: center;
+}
+
+.Activebar .activeItem {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
