@@ -1,10 +1,11 @@
 import React from "react";
+import ScrollToBottom from "react-scroll-to-bottom";
 
 import "./Activebar.css";
 
 export default function Activebar({ users }) {
   return (
-    <div className="Activebar">
+    <ScrollToBottom className="Activebar">
       <h1 className="header">People currently chatting</h1>
       {users && (
         <div className="users-list">
@@ -16,6 +17,6 @@ export default function Activebar({ users }) {
           ))}
         </div>
       )}
-    </div>
+    </ScrollToBottom>
   );
 }
