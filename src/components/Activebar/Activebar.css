@@ -18,3 +18,7 @@
   font-size: 20px;
   align-items: center;
 }
+
+.Activebar .users-list {
+  height: 18rem;
+}
