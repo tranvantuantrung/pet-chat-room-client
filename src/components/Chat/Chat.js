@@ -18,7 +18,7 @@ export default function Chat({ location }) {
   const [room, setRoom] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = "https://dhmm5.sse.codesandbox.io/";
+  const ENDPOINT = "https://pet-chat-room-server.herokuapp.com/";
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
